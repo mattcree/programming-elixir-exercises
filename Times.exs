@@ -4,7 +4,7 @@ defmodule Times do
 	end
 
 	def triple(number) do
-		number * 3P
+		number * 3
 	end
 
 	def quadruple(number) do
