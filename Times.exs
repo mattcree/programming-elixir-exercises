@@ -1,4 +1,5 @@
 defmodule Times do
+	
 	def double(number) do
 		number * 2
 	end
