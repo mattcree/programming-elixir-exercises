@@ -65,4 +65,16 @@ defmodule MyEnum do
 		_do_take(tail, count-1, [head|taken], direction)
 	end
 
+	def len([head|tail]) do
+		_do_len(tail, 1)
+	end
+
+	defp _do_len([], count) do
+		count
+	end
+
+	defp _do_len([head|tail], count) do
+		_do_len(tail, count+1)
+	end
+
 end
