@@ -1,5 +1,4 @@
 defmodule MyList do
-
 	def mapsum(list, func) do
 		Enum.map(list, func) |> Enum.sum
 	end
@@ -19,5 +18,4 @@ defmodule MyList do
 				current -> current + n 
 			end)
 	end
-
 end
